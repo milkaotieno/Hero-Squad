@@ -1,4 +1,5 @@
-package models
+//package models
+//
+//class SquadTest extends Squad {
+//}
 
-class SquadTest extends Squad {
-}
