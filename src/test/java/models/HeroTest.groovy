@@ -1,4 +1,4 @@
 package models
 
-class HeroTest extends groovy.util.GroovyTestCase {
+class HeroTest extends Hero {
 }
