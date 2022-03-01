@@ -1,0 +1,51 @@
+ *{
+    background: #e4e7ea;
+    background-color:rgb(52 78 54);
+}
+label{
+color:white;
+}
+h1 {
+    font-size: 36px;
+    color: white;
+}
+h5,p {
+color:white;
+}
+/*
+
+.heroheader{
+text-align:center;
+color:white;
+font-size:16px;
+}
+.btn-default {
+    background: #e4e7ea;
+    color: #636e7b;
+    border-color: #ccc !important;
+}
+option{
+     color:white;}
+.btn {
+    margin-left:100px;
+    display: inline-block;
+    padding: 9px 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: all 0.2s ease-out 0s;
+}
+*/
+

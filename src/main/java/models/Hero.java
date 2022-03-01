@@ -30,7 +30,7 @@ public class Hero {
     }
 
     public int getHeroAge() {
-        return this.heroAge;
+       return this.heroAge;
     }
 
 
