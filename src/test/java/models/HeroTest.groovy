@@ -1,4 +1,4 @@
-//package models
+package models
 //
 //class HeroTest extends Hero {
 
