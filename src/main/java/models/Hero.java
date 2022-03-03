@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hero {
+
     private String name;
     private int heroAge;
     private String heroAbility;
@@ -13,12 +14,12 @@ public class Hero {
     private static ArrayList<Hero> instances = new ArrayList<Hero>();
 
     public Hero(String name, int age, String ability, String weakness,String heroSquad){
-        name = name;
-        heroAge = age;
-        heroAbility = ability;
-        heroWeakness = weakness;
-        heroSquad=heroSquad;
-        instances.add(this);
+        this.name = name;
+        this.heroAge = age;
+        this.heroAbility = ability;
+        this.heroWeakness = weakness;
+        this.heroSquad=heroSquad;
+        this.instances.add(this);
         this.id = instances.size();
     }
 
@@ -72,5 +73,9 @@ public class Hero {
         instances.remove(id - 1);
     }
 
-}
+//    public String getHeroName() {
 
+    public String getHeroSquad() {
+        return heroSquad;
+    }
+}

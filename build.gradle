@@ -21,4 +21,5 @@ dependencies {
     implementation 'org.slf4j:slf4j-simple:1.7.21'
     implementation 'org.sql2o:sql2o:1.5.4'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }

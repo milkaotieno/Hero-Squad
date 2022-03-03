@@ -2,21 +2,21 @@
     margin: 0;
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
     background-color:rgb(210, 238, 229);
-    color: lightgrey;
+
  }
  .spacer {
   flex: 1;
 }
 label{
-color:white;
+color: orange !important;
 }
 h1 {
     font-size: 50px;
-    color: white;
+    color: orange !important;
     font-weight: bold;
 }
 h5,p {
-color:white;
+color: orange !important;
 }
 
 
