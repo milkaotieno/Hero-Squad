@@ -1,12 +1,12 @@
-# Hero squad
+# Hero Squad
 ## Author
-By Sitati Solomon
+Otieno Milka
 
 ## Description
 Hero Squad is a fictional app that allows you to recruit a well-balanced team of superheroes who belong to different fighting squads.
 
 ## Setup/Installation Requirements
-* git clone https://github.com/mabunde/Hero-squad.git
+* 
 * cd to Hero-squad/
 * open with intellij IDEA or your preferred editor
 * Run the gradle 
@@ -37,8 +37,8 @@ OUTPUT: "Heroes"
 ### 6.Displays a list of squad formed
 OUTPUT: "Squads"
 ## Technologies Used
-Java
-known bugs
+* Java
+* Git
 
 ## Support and contact details
 

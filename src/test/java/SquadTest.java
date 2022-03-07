@@ -1,6 +1,7 @@
 import models.Hero;
 import models.Squad;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -37,7 +38,7 @@ public class SquadTest {
         Hero myHero = new Hero("Captain America", 26, "Super Strong", "girlfriend", "Endgame");
         mySquad.addHero(myHero);
         System.out.println(mySquad.getHeroes().size());
-        assertTrue(mySquad.getHeroes().contains(myHero));
+        Assert.assertEquals(true, mySquad.getHeroes().contains(myHero));
 
     }
     @After
