@@ -9,7 +9,7 @@ version '1.0-SNAPSHOT'
 mainClassName = 'App'
 
 sourceCompatibility = 1.8
-applicationName = 'heroku-squad-milka'
+applicationName = 'hero-squad-milka'
 
 repositories {
     mavenCentral()

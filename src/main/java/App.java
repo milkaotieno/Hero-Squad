@@ -95,18 +95,27 @@ public class App {
             String heroAbility = request.queryParams("heroAbility");
             String heroWeakness = request.queryParams("heroWeakness");
             int selectedSquadId = Integer.parseInt(request.queryParams("selected-squad"));
-            ArrayList<Squad> allSquads = Squad.getAll();
+//            ArrayList<Squad> allSquads = Squad.getAll();
             Squad selectedSquad = Squad.findById(selectedSquadId);
             String squadName = selectedSquad.getName();
             Hero newHero = new Hero(name, age, heroAbility, heroWeakness, squadName);
-            model.put("name", name);
-            model.put("age", age);
-            model.put("heroAbility", heroAbility);
-            model.put("heroWeakness", heroWeakness);
-            model.put("allSquads", allSquads);
-            model.put("squadName", squadName);
-            model.put("newHero", newHero);
-            return new ModelAndView(model, "hero-success.hbs");
+//            model.put("name", name);
+//            model.put("age", age);
+//            model.put("heroAbility", heroAbility);
+//            model.put("heroWeakness", heroWeakness);
+//            model.put("allSquads", allSquads);
+//            model.put("squadName", squadName);
+//            model.put("newHero", newHero);
+//
+            System.out.println(name);
+            System.out.println(age);
+            System.out.println(heroAbility);
+            System.out.println(selectedSquad);
+            System.out.println(heroWeakness);
+            System.out.println(name);
+
+            response.redirect("/" );
+        return null ;
         }, new HandlebarsTemplateEngine());
 
     }
